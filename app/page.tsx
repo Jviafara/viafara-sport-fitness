@@ -1,7 +1,11 @@
+import Header from '@/components/common/Header'
+import ReasonsCard from '@/components/common/ReasonsSection'
+
 export default function Home() {
   return (
-    <div className='h-[2000px]'>
-      <h1>Home</h1>
+    <div className=''>
+      <Header />
+      <ReasonsCard />
     </div>
   )
 }

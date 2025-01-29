@@ -7,7 +7,7 @@ export function cn(...inputs: ClassValue[]) {
 
 export const navigationItems = [
   { name: 'Inicio', href: '/' },
-  { name: 'Nosotro', href: '/nosotros' },
+  { name: 'Nosotro', href: '/about' },
   { name: 'Servicios', href: '/servicios' },
   { name: 'Contacto', href: '/contacto' },
 ]
