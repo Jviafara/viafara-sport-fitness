@@ -11,3 +11,21 @@ export const navigationItems = [
   { name: 'Servicios', href: '/servicios' },
   { name: 'Contacto', href: '/contacto' },
 ]
+
+export const servicios = [
+  {
+    title: 'Entrenamiento y Fortalecimiento Múscular',
+    href: '/servicios#strength',
+    img: '/images/strength.jpg',
+  },
+  {
+    title: 'Cardio Boxing',
+    href: '/servicios#boxing',
+    img: '/images/cardiobox.jpg',
+  },
+  {
+    title: 'Entrenamiento Funcional',
+    href: '/servicios#funcional',
+    img: '/images/functionaltraining.jpg',
+  },
+]

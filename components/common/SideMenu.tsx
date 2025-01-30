@@ -25,7 +25,10 @@ export default function SideMenu() {
       <SheetContent className='bg-black/80  border-none text-white font-medium  text-2xl uppercase animate-fade-left animate-duration-300'>
         <SheetHeader>
           <SheetTitle className='hidden'>Navigation Menu</SheetTitle>
-          <Link href='/'>
+          <Link
+            href='/'
+            className='w-fit p-4'
+          >
             <Image
               src='/images/logoText.png'
               alt='logo'

@@ -10,7 +10,7 @@ function Navbar() {
   const [mainNav, setMainNav] = useState<boolean>(true)
   const onScroll = () => {
     const { scrollY } = window
-    if (scrollY > window.innerHeight * 0.75) {
+    if (scrollY > window.innerHeight * 0.5) {
       setMainNav(false)
     } else {
       setMainNav(true)
@@ -18,7 +18,7 @@ function Navbar() {
   }
   useEffect(() => {
     //add eventlistener to window
-    if (window.scrollY > window.innerHeight * 0.75) {
+    if (window.scrollY > window.innerHeight * 0.5) {
       setMainNav(false)
     }
     window.addEventListener('scroll', onScroll)
@@ -84,7 +84,7 @@ function Navbar() {
           </MaxWidthWraper>
         </div>
       ) : (
-        <div className='bg-black/80 sticky z-50 top-0 inset-y-0 text-white  animate-fade-down animate-once animate-ease-linear animate-duration-300'>
+        <div className='bg-black/80 sticky inset-y-0 z-50 text-white  animate-fade-down animate-once animate-ease-linear animate-duration-300'>
           <MaxWidthWraper>
             <div className='flex h-16 items-center relative '>
               <div className='relative ml-4 flex lg:ml-0 h-full items-center hover:-translate-y-1 hover:scale-110'>

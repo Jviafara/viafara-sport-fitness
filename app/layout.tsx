@@ -24,14 +24,12 @@ export default function RootLayout({
     >
       <body
         className={cn(
-          'relative h-full font-sans antialiased bg-white',
+          'relative h-full font-sans antialiased bg-black animate-fade',
           inter.className
         )}
       >
         <main className='relative flex flex-col min-h-screen'>
-          <header className='absolute inset-0 z-20 h-fit'>
-            <Navbar />
-          </header>
+          <Navbar />
           <div className='flex-grow flex-1'>{children}</div>
         </main>
       </body>
