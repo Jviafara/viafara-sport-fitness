@@ -20,21 +20,22 @@ function ServicesBanner() {
               transition={{
                 duration: 0.75,
                 delay: (index + 1) / 4,
-                ease: 'easeInOut',
+                ease: 'easeIn',
               }}
+              viewport={{ once: true }}
               key={index}
               className={`px-8 w-full h-full xl:w-1/3 flex  flex-col gap-2 items-center justify-between  text-white ${
                 index === 0 ? 'md:col-span-2' : ''
               }`}
             >
-              <motion.div className='w-full h-[250px] xl:h-[300px] relative'>
+              <div className='w-full h-[250px] xl:h-[300px] relative '>
                 <Image
                   src={item.img}
                   alt='image'
                   fill
-                  className='object-fill object-center rounded-xl '
+                  className='object-fill object-center rounded-xl'
                 />
-              </motion.div>
+              </div>
               <motion.div className='flex justify-between items-center w-full py-4 text-xl h-fit uppercase'>
                 <h1 className='w-full'>{item.title}</h1>
                 <Link

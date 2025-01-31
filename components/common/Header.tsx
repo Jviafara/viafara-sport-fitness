@@ -15,7 +15,8 @@ function Header() {
         <motion.section
           initial={{ opacity: 0, y: 100 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.75, delay: 0, ease: 'easeInOut' }}
+          transition={{ duration: 0.5, delay: 0, ease: 'easeIn' }}
+          viewport={{ once: true }}
           className='pt-16 flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:mx-[10%] lg:pt-[10%] gap-16 text-black z-50 rounded-lg py-8 '
         >
           <div className='relative w-96 h-80 flex items-center justify-center  overflow-hidden'>
