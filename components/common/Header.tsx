@@ -1,16 +1,23 @@
+'use client'
 import Image from 'next/image'
+import { motion } from 'framer-motion'
 
 function Header() {
   return (
     <header className='max-h-screen overflow-hidden top-0 -z-50 w-full'>
-      <div className='bg-black/60 h-screen relative'>
+      <div className='relative min-h-screen bg-gradient-to-b from-transparent to-[#1a1a1b]'>
         <Image
           src='/images/banner.jpg'
           alt='banner'
           fill
           className='object-fill object-top grayscale -z-50 overflow-hidden'
         />
-        <section className='pt-16 flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:mx-[10%] lg:pt-[10%] gap-16 text-black z-50 rounded-lg py-8  animate-fade-up animate-ease-linear animate-duration-500'>
+        <motion.section
+          initial={{ opacity: 0, y: 100 }}
+          whileInView={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.75, delay: 0, ease: 'easeInOut' }}
+          className='pt-16 flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:mx-[10%] lg:pt-[10%] gap-16 text-black z-50 rounded-lg py-8 '
+        >
           <div className='relative w-96 h-80 flex items-center justify-center  overflow-hidden'>
             <Image
               src={'/images/logo.png'}
@@ -31,7 +38,7 @@ function Header() {
               hoy
             </span>
           </div>
-        </section>
+        </motion.section>
       </div>
     </header>
   )
