@@ -8,8 +8,8 @@ import { motion } from 'framer-motion'
 function ServicesBanner() {
   return (
     <>
-      <div className='flex flex-col items-center justify-center my-16 w-full'>
-        <h1 className='text-primary text-2xl md:text-4xl uppercase text-center'>
+      <div className='flex flex-col items-center justify-center my-16 w-full sm:p-[10%] md:p-0'>
+        <h1 className='text-primary text-2xl md:text-4xl uppercase text-center font-bold'>
           Lo que te ofrecemos!
         </h1>
         <section className='w-full xl:w-[80%] h-fit text-white bg-black/10 flex flex-col md:grid md:grid-cols-2 lg:flex lg:flex-row items-center justify-between  gap-12 py-16'>

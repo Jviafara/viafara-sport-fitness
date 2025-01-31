@@ -36,7 +36,7 @@ function ReasonsSection() {
       viewport={{ once: true }}
       className='w-full bg-gradient-to-b from-[#1a1a1b] to-bg-blak h-fit py-8 md:py-16 lg:py-28  px-2 md:px-8 lg:px-16 text-white flex flex-col items-center justify-center gap-12'
     >
-      <p className='text-center text-primary/80 text-base md:text-xl lg:text-2xl -mb-4 uppercase'>
+      <p className='text-center text-primary/80 text-base md:text-xl lg:text-2xl -mb-4 uppercase font-bold'>
         Porque entrenar con nosotros?
       </p>
       <div className='flex text-4xl text-primary'>

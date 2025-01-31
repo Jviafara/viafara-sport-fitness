@@ -1,7 +1,8 @@
-import Contactbanner from '@/components/common/Contactbanner'
+import Planesbanner from '@/components/common/PlanesBanner'
 import Header from '@/components/common/Header'
 import ReasonsCard from '@/components/common/ReasonsSection'
 import ServicesBanner from '@/components/common/ServicesBanner'
+import Footer from '@/components/common/Footer'
 
 export default function Home() {
   return (
@@ -9,7 +10,8 @@ export default function Home() {
       <Header />
       <ReasonsCard />
       <ServicesBanner />
-      <Contactbanner />
+      <Planesbanner />
+      <Footer />
     </div>
   )
 }

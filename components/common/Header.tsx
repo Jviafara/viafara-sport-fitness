@@ -29,13 +29,13 @@ function Header() {
           </div>
 
           <div className='flex flex-col gap-2  uppercase text-white text-justify'>
-            <h1 className='text-7xl  font-extralight italic px-3 w-full text-center'>
+            <h1 className='text-6xl  font-extralight italic px-3 w-full text-center'>
               el cambio
             </h1>
-            <span className='bg-primary rounded-md text-7xl text-black px-6 pb-2 font-medium'>
+            <span className='bg-primary rounded-md text-5xl text-black text-center px-4 pb-2 font-medium'>
               comienza
             </span>
-            <span className='text-[12rem] leading-[0.7] text-primary font-bold font-stretch-[50%]'>
+            <span className='text-[9rem] leading-[0.7] text-primary font-bold font-stretch-[50%]'>
               hoy
             </span>
           </div>
