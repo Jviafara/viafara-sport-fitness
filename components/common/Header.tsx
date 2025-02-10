@@ -13,9 +13,9 @@ function Header() {
           className='object-fill object-top grayscale -z-50 overflow-hidden'
         />
         <motion.section
-          initial={{ opacity: 0, y: 100 }}
+          initial={{ opacity: 0, y: 50 }}
           whileInView={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.5, delay: 0, ease: 'easeIn' }}
+          transition={{ duration: 0.3, delay: 0, ease: 'easeIn' }}
           viewport={{ once: true }}
           className='pt-16 flex flex-col lg:flex-row items-center justify-center lg:justify-start lg:mx-[10%] lg:pt-[10%] gap-16 text-black z-50 rounded-lg py-8 '
         >

@@ -36,13 +36,15 @@ function ServicesBanner() {
                   className='object-fill object-center rounded-xl'
                 />
               </div>
-              <motion.div className='flex justify-between items-center w-full py-4 text-xl h-fit uppercase'>
-                <h1 className='w-full'>{item.title}</h1>
+              <motion.div className=' w-full py-4 text-xl h-fit uppercase'>
                 <Link
                   href={item.href}
-                  className='py-1 px-2 text-primary/70 hover:text-white/80  bg-black/70 hover:bg-primary/90  rounded-xl transition-all duration-300'
+                  className='flex justify-between items-center'
                 >
-                  <ArrowBigRight size={48} />
+                  <h1 className='w-full'>{item.title}</h1>
+                  <div className='py-1 px-2 text-primary/70 hover:text-white/80  bg-black/70 hover:bg-primary/90  rounded-xl transition-all duration-300'>
+                    <ArrowBigRight size={48} />
+                  </div>
                 </Link>
               </motion.div>
             </motion.div>
