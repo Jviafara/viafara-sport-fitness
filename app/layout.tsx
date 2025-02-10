@@ -3,6 +3,8 @@ import { Inter } from 'next/font/google'
 import type { Metadata } from 'next'
 import './globals.css'
 import Navbar from '@/components/common/Navbar'
+import ScrollUpButton from '@/components/common/ScrollUpButton'
+import Footer from '@/components/common/Footer'
 const inter = Inter({ subsets: ['latin'] })
 
 export const metadata: Metadata = {
@@ -18,10 +20,7 @@ export default function RootLayout({
   children: React.ReactNode
 }) {
   return (
-    <html
-      lang='en'
-      className='h-full'
-    >
+    <html lang='en'>
       <body
         className={cn(
           'relative h-full font-sans antialiased bg-black animate-fade',
@@ -31,7 +30,10 @@ export default function RootLayout({
         <main className='relative flex flex-col min-h-screen'>
           <Navbar />
           <div className='flex-grow flex-1'>{children}</div>
+          <ScrollUpButton />
         </main>
+
+        <Footer />
       </body>
     </html>
   )
