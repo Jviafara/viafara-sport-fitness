@@ -85,7 +85,7 @@ function Navbar() {
               </nav>
             </div>
 
-            <div className='gap-4 text-white hidden md:inline-flex'>
+            <div className='gap-4 text-white hidden lg:inline-flex'>
               <Link
                 href={'https://www.facebook.com/profile.php?id=61559235454874'}
                 target='_blank'
