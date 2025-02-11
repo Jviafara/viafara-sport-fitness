@@ -22,7 +22,7 @@ const trainers = [
 
 function About() {
   return (
-    <main className='min-h-screen w-full mt-16 bg-gradient-to-b from-black to-[#1a1a1b] text-white flex flex-col items-center animate-fade'>
+    <main className='min-h-screen w-full md:mt-16 bg-gradient-to-b from-black to-[#1a1a1b] text-white flex flex-col items-center animate-fade'>
       <AboutUs />
       <div className='w-full py-16 flex flex-col justify-center items-center gap-12 bg-gradient-to-b from-transparent  to-[#1a1a1b]'>
         <h1 className='text-primary/80 text-2xl lg:text-3xl'>
