@@ -18,19 +18,19 @@ function ServiceCard({ title, images, description, href }: Props) {
       <h1 className='text-2xl text-primary text-center font-semibold'>
         {title}
       </h1>
-      <div className='flex flex-col md:flex-row gap-4  w-full h-full p-2 '>
-        <p className='align-text-top  w-1/3 h-[50vh]'>{description}</p>
+      <div className='flex flex-col lg:flex-row gap-4 w-full h-full  p-2 '>
+        <p className='align-text-top w-full  lg:w-1/3'>{description}</p>
         <div className='relative w-full grid grid-cols-2 gap-2 '>
           {images.map((image, index) => (
             <div
               key={index}
-              className='relative'
+              className='relative w-full h-[25vh]  '
             >
               <Image
                 src={image}
                 alt='img'
                 fill
-                className='object-cover'
+                className='object-cover overflow-hidden'
               />
             </div>
           ))}
