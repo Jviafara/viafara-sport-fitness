@@ -16,16 +16,22 @@ export const servicios = [
   {
     title: 'Entrenamiento y Fortalecimiento Múscular',
     href: '/servicios#strength',
-    img: '/images/strength.jpg',
+    images: ['/images/strength.jpg', ''],
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus eget nulla sit amet tincidunt. Cras aliquet egestas nunc eu imperdiet. Donec efficitur, ex quis tempor eleifend, magna libero vehicula ipsum, a feugiat ipsum sapien a sem. Sed convallis vitae orci eget ultricies. Nullam eu congue dolor, nec facilisis ipsum.',
   },
   {
     title: 'Cardio Boxing',
     href: '/servicios#boxing',
-    img: '/images/cardiobox.jpg',
+    images: ['/images/cardiobox.jpg', ''],
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus eget nulla sit amet tincidunt. Cras aliquet egestas nunc eu imperdiet. Donec efficitur, ex quis tempor eleifend, magna libero vehicula ipsum, a feugiat ipsum sapien a sem. Sed convallis vitae orci eget ultricies. Nullam eu congue dolor, nec facilisis ipsum.',
   },
   {
     title: 'Entrenamiento Funcional',
     href: '/servicios#funcional',
-    img: '/images/functionaltraining.jpg',
+    images: ['/images/functionaltraining.jpg', ''],
+    description:
+      'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus eget nulla sit amet tincidunt. Cras aliquet egestas nunc eu imperdiet. Donec efficitur, ex quis tempor eleifend, magna libero vehicula ipsum, a feugiat ipsum sapien a sem. Sed convallis vitae orci eget ultricies. Nullam eu congue dolor, nec facilisis ipsum.',
   },
 ]

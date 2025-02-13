@@ -3,7 +3,7 @@ import { BsFillArrowUpSquareFill } from 'react-icons/bs'
 
 function ScrollUpButton() {
   return (
-    <div className='fixed bottom-4 md:bottom-10 right-4 md:right-10 z-10 text-primary'>
+    <div className='fixed bottom-10 right-4 md:right-10 z-10 text-primary'>
       <button
         type='button'
         onClick={() =>

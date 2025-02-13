@@ -6,7 +6,8 @@ import Image from 'next/image'
 
 function Services() {
   const goTo = (id: string) => {
-    console.log(id)
+    const element = document.getElementById(id)
+    element?.scrollIntoView({ behavior: 'smooth' })
   }
   return (
     <div className='w-full flex flex-col items-center justify-normal'>
@@ -31,7 +32,7 @@ function Services() {
           >
             <div className='w-full h-[250px] xl:h-[300px] relative '>
               <Image
-                src={item.img}
+                src={item.images[0]}
                 alt='image'
                 fill
                 className='object-fill object-center rounded-xl'
