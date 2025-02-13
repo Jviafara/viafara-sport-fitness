@@ -32,7 +32,7 @@ function Services() {
           >
             <div className='w-full h-[250px] xl:h-[300px] relative '>
               <Image
-                src={item.images[0]}
+                src={item.images[1]}
                 alt='image'
                 fill
                 className='object-fill object-center rounded-xl'

@@ -13,24 +13,27 @@ function ServiceCard({ title, images, description, href }: Props) {
   return (
     <div
       id={link}
-      className='w-full flex flex-col gap-4 items-start first:pt-16'
+      className='w-full flex flex-col gap-4 items-center pt-16'
     >
-      <h1 className='text-2xl text-primary font-semibold'>{title}</h1>
+      <h1 className='text-2xl text-primary text-center font-semibold'>
+        {title}
+      </h1>
       <div className='flex flex-col md:flex-row gap-4  w-full h-full p-2 '>
-        <p className='align-text-top w-1/4'>{description}</p>
-        <div className='relative w-[450px] h-48 flex-grow'>
-          <Image
-            src={images[0]}
-            alt='img'
-            fill
-            className='object-contain'
-          />
-          <Image
-            src={images[0]}
-            alt='img'
-            fill
-            className='object-contain'
-          />
+        <p className='align-text-top  w-1/3 h-[50vh]'>{description}</p>
+        <div className='relative w-full grid grid-cols-2 gap-2 '>
+          {images.map((image, index) => (
+            <div
+              key={index}
+              className='relative'
+            >
+              <Image
+                src={image}
+                alt='img'
+                fill
+                className='object-cover'
+              />
+            </div>
+          ))}
         </div>
       </div>
     </div>
