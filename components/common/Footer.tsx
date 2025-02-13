@@ -8,7 +8,7 @@ import { usePathname } from 'next/navigation'
 function Footer() {
   const pathName = usePathname()
   return (
-    <footer className='bg-gradient-to-b from-[#1a1a1b] to-black w-full h-full flex flex-col gap-8 items-center justify-center py-16'>
+    <footer className='bg-gradient-to-b from-[#1a1a1b] to-black w-full h-full flex flex-col gap-8 items-center justify-center pt-16'>
       <div className='flex flex-col md:flex-row gap-8 md:items-start md:justify-evenly h-full px-12 lg:w-[80%]'>
         <div className='text-white md:w-1/2 flex flex-col gap-8 items-center justify-center text-center'>
           <Link

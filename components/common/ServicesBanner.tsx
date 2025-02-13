@@ -30,7 +30,7 @@ function ServicesBanner() {
             >
               <div className='w-full h-[250px] xl:h-[300px] relative '>
                 <Image
-                  src={item.img}
+                  src={item.images[0]}
                   alt='image'
                   fill
                   className='object-fill object-center rounded-xl'

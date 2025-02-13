@@ -34,7 +34,7 @@ function Navbar() {
   return (
     <>
       {mainNav ? (
-        <div className='text-white bg-black/80'>
+        <div className='text-white bg-black/80 z-50'>
           <div className='flex justify-between h-16 items-center relative mx-[10%]'>
             <div className='relative ml-4 flex lg:ml-0 h-full items-center hover:-translate-y-1 hover:scale-110'>
               {/* Logo for Small devices */}
@@ -85,7 +85,7 @@ function Navbar() {
               </nav>
             </div>
 
-            <div className='gap-4 text-white hidden md:inline-flex'>
+            <div className='gap-4 text-white hidden lg:inline-flex'>
               <Link
                 href={'https://www.facebook.com/profile.php?id=61559235454874'}
                 target='_blank'

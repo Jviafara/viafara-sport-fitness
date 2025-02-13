@@ -2,7 +2,6 @@
 
 import { Dumbbell } from 'lucide-react'
 import { GiWeightLiftingUp } from 'react-icons/gi'
-import { RiDoubleQuotesL, RiDoubleQuotesR } from 'react-icons/ri'
 import { TbTreadmill } from 'react-icons/tb'
 import { motion } from 'framer-motion'
 
@@ -39,13 +38,6 @@ function ReasonsSection() {
       <p className='text-center text-primary/80 text-base md:text-xl lg:text-2xl -mb-4 uppercase font-bold'>
         Porque entrenar con nosotros?
       </p>
-      <div className='flex text-4xl text-primary'>
-        <RiDoubleQuotesL />
-        <h1 className='text-xl md:text-3xl text-center text-white uppercase'>
-          Recuerda que eres el ingeniero de tu propia construccion
-        </h1>
-        <RiDoubleQuotesR />
-      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 100 }}
