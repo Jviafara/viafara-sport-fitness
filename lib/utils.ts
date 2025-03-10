@@ -50,3 +50,13 @@ export const servicios = [
       'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent faucibus eget nulla sit amet tincidunt. Cras aliquet egestas nunc eu imperdiet. Donec efficitur, ex quis tempor eleifend, magna libero vehicula ipsum, a feugiat ipsum sapien a sem. Sed convallis vitae orci eget ultricies. Nullam eu congue dolor, nec facilisis ipsum.',
   },
 ]
+
+export const planes = [
+  { name: 'Semana', price: '20.000', cupos: 1 },
+  { name: 'Quincenal', price: '40.000', cupos: 1 },
+  { name: 'Mensulaidad', price: '80.000', cupos: 1 },
+  { name: 'Plan familia', price: '300.000', cupos: 5 },
+  { name: 'Plan pareja', price: '140.000', cupos: 2 },
+  { name: 'Plan amigo', price: '140.000', cupos: 2 },
+  { name: 'Plan familia o amigos', price: '190.000', cupos: 3 },
+]
