@@ -20,7 +20,7 @@ function Contacto() {
                 size={32}
               />
               <p className='text-lg md:text-2xl font-semibold'>
-                (+57) 313-5245168
+                (+57) 301-468-8593
               </p>
             </Link>
             <Link

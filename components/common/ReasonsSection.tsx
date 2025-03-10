@@ -35,7 +35,7 @@ function ReasonsSection() {
       viewport={{ once: true }}
       className='w-full bg-gradient-to-b from-[#1a1a1b] to-bg-blak h-fit py-8 md:py-16 lg:py-28  px-2 md:px-8 lg:px-16 text-white flex flex-col items-center justify-center gap-12'
     >
-      <p className='text-center text-primary/80 text-base md:text-xl lg:text-2xl -mb-4 uppercase font-bold'>
+      <p className='text-center text-primary/80 text-base md:text-xl lg:text-2xl  uppercase font-bold'>
         Porque entrenar con nosotros?
       </p>
 
@@ -47,12 +47,12 @@ function ReasonsSection() {
         }}
         transition={{ duration: 0.5, delay: 0.5 }}
         viewport={{ once: true }}
-        className='flex flex-col md:flex-row mx-4 md:mx-0 lg:w-[80%] items-center justify-between gap-4 lg:gap-12'
+        className='flex flex-col md:flex-row mx-4 md:mx-0 lg:w-[80%] h-full items-start justify-center gap-4 lg:gap-12'
       >
         {reasonsItems.map(item => (
           <div
             key={item.title}
-            className='flex flex-col justify-between items-center gap-4 text-center py-4 md:py-8 xl:px-12 h-full w-full'
+            className='flex flex-col justify-between items-center gap-4 text-center  h-full w-full'
           >
             <hr className='w-full md:hidden  text-primary' />
             <h1 className='md:text-lg lg:text-xl text-center uppercase'>
